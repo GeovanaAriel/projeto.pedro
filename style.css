@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2? family= Krona+One & display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+ background-image: url('imagens/universo.jpeg');
+}
+
+
+
+.cabecalho {
+    display: flex;
+    padding: 1% 0% 1% 25%;
+    background-color: #000000;
+    justify-content: flex-start;
+    font-size: 19px;
+    
+   
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho__menu__link{
+    display: flex;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 600;
+    color:#993399;
+    text-decoration: none;
+    
+}
+
+
+
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    flex-direction: column;
+}
+
+.apresentacao__conteudo__titulo {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-family: 'Krona One', sans-serif;
+   font-size: 2.25rem;
+   color:#FFFFFF;  
+}
+
+.titulo__destaque {
+  color: #993399;
+  
+}
+
+.apresentacao__conteudo__subtitulo {
+    display: flex;
+    position:absolute;
+    bottom: 20%;
+    left: 42%;
+    font-family: 'Krona One', sans-serif;
+    font-size: 2.25rem;
+    color: #FFFFFF;
+}
+
+.apresentacao__conteudo__texto {
+    display:flex;
+    position: absolute;
+    bottom:17.5%;
+    left:8%;
+    font-weight: 600;
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.20rem;
+    color: #FFFFFF;
+}
+.apresentacao__conteudo__texto__1 {
+  display: flex;
+  position: absolute;
+  bottom: 14.5%;
+  left:30%;
+  font-weight: 600;
+  font-family:'Krona One', sans-serif;
+  font-size: 1.20rem;
+  color:#FFFFFF;
+}
+
+
+.apresentacao__conteudo__texto__2{
+    display: flex;
+    position: absolute;
+    bottom: 11.9%;
+    left:33%;
+    font-weight: 600;
+    font-family:'Krona One', sans-serif;
+    font-size: 1.20rem;
+    color:#FFFFFF;
+}
+
+
+.apresentacao__conteudo__img {
+    display: flex;
+    justify-self: flex-start;
+    width: 24%;
+    border-radius: 5px;
+    max-width:450px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
+
+
